@@ -1,0 +1,67 @@
+/* CSS Document */
+.portfolio_header {
+    background-size: 100% auto;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: local;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media (min-width: 0px) and (max-width: 1024px) {
+   .portfolio_header {
+		height: 400px;
+   }
+}
+
+.menu_list_item {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666;
+}
+
+.header_title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #999;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: left;
+}
+
+.portfolio_links {
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #333;
+}
+
+.portfolio_links span {
+	color: #87b672;
+}
+
+.portfolio_items_title {
+	text-align: left;
+	padding-left: 90px;
+}
+
+.portfolio_items_subtitle {
+	text-align: left;
+	padding-left: 90px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+	color: #999;
+}
